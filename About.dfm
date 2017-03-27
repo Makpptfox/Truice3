@@ -2006,7 +2006,7 @@ object AboutBox: TAboutBox
         Width = 169
         Height = 13
         Cursor = crHandPoint
-        Caption = 'https://github.com/chaosua/Truice'
+        Caption = 'https://github.com/Makpptfox/Truice3'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clNavy
         Font.Height = -11

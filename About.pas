@@ -102,7 +102,7 @@ procedure TAboutBox.InitializeCaptions;
 var
   Major, Minor, Release, Build: Word;
 begin
-  // определение версии
+  // Version definition
   if GetFileVersion(Application.ExeName, Major, Minor, Release, Build) then
     lblVersion.Caption:= Format('Version %d.%d.%d.%d',[Major, Minor, Release, Build])
   else
@@ -117,7 +117,7 @@ end;
 
 procedure TAboutBox.LinkSiteClick(Sender: TObject);
 begin
-  BrowseURL1.URL:='http://github.com/chaosua/Truice';
+  BrowseURL1.URL:='https://github.com/Makpptfox/Truice3';
   BrowseURL1.Execute;
 end;
 
