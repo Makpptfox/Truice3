@@ -1,7 +1,11 @@
-#Truice3 is an update version of Truice.
+##Truice3
+This is an updated version of Truice v1.8.3.7 from Chaosua.
 It is a fork of http://github.com/chaosua/Truice
 
-#It is NOT finished.
+
+## Compilation
+
+**It is NOT yet finished !
 
 To compile use Delphi XE2 and next additional components:
 
@@ -22,6 +26,6 @@ http://www.tmssoftware.com/go.asp?tmsuni
 AlphaControls 2010 7.69
 http://www.alphaskins.com/
 
-Original topic on TC forum:
-EN: http://www.trinitycore.org/f/topic/7639-bin-truice-win32/
-RU: http://trinity-core.ru/threads/truice.7924/
+
+## LICENSE
+Licensed under MIT, all the copyrights belong to Faq (https://github.com/Faq/) and Chaosua (https://github.com/chaosua/).

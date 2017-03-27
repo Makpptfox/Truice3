@@ -2766,6 +2766,18 @@ begin
       if Pos('edqt',TLabeledEdit(Components[i]).EditLabel.Caption)=1 then
         TLabeledEdit(Components[i]).EditLabel.Caption := 
           MidStr(Components[i].Name, 5, Length(Components[i].Name)-4);
+      if Pos('edqa',TLabeledEdit(Components[i]).EditLabel.Caption)=1 then
+        TLabeledEdit(Components[i]).EditLabel.Caption := 
+          MidStr(Components[i].Name, 5, Length(Components[i].Name)-4);
+      if Pos('edqd',TLabeledEdit(Components[i]).EditLabel.Caption)=1 then
+        TLabeledEdit(Components[i]).EditLabel.Caption := 
+          MidStr(Components[i].Name, 5, Length(Components[i].Name)-4);
+      if Pos('edqi',TLabeledEdit(Components[i]).EditLabel.Caption)=1 then
+        TLabeledEdit(Components[i]).EditLabel.Caption := 
+          MidStr(Components[i].Name, 5, Length(Components[i].Name)-4);
+      if Pos('edqo',TLabeledEdit(Components[i]).EditLabel.Caption)=1 then
+        TLabeledEdit(Components[i]).EditLabel.Caption := 
+          MidStr(Components[i].Name, 5, Length(Components[i].Name)-4);
       if Pos('edht',TLabeledEdit(Components[i]).EditLabel.Caption)=1 then
         TLabeledEdit(Components[i]).EditLabel.Caption := 
           MidStr(Components[i].Name, 5, Length(Components[i].Name)-4);
