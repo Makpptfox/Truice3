@@ -1974,7 +1974,7 @@ object AboutBox: TAboutBox
         Top = 10
         Width = 80
         Height = 13
-        Caption = 'Version: 1.3.8'
+        Caption = 'Version: 3.0.1'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clGray
         Font.Height = -11
@@ -1986,7 +1986,7 @@ object AboutBox: TAboutBox
       end
       object lblAutorName: TLabel
         Left = 281
-        Top = 116
+        Top = 95
         Width = 106
         Height = 15
         AutoSize = False
@@ -2036,7 +2036,7 @@ object AboutBox: TAboutBox
       end
       object Label2: TLabel
         Left = 281
-        Top = 137
+        Top = 116
         Width = 106
         Height = 15
         AutoSize = False
@@ -2052,7 +2052,7 @@ object AboutBox: TAboutBox
       end
       object Label1: TLabel
         Left = 281
-        Top = 158
+        Top = 137
         Width = 106
         Height = 15
         AutoSize = False
@@ -2068,11 +2068,28 @@ object AboutBox: TAboutBox
       end
       object Label3: TLabel
         Left = 281
-        Top = 179
+        Top = 158
         Width = 117
         Height = 15
         AutoSize = False
         Caption = #169' chaosua, 2013-2014'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clGray
+        Font.Height = -11
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        Transparent = True
+        WordWrap = True
+      end
+	  end
+      object Label6: TLabel
+        Left = 281
+        Top = 179
+        Width = 117
+        Height = 15
+        AutoSize = False
+        Caption = #169' Makpptfox, 2017'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clGray
         Font.Height = -11
