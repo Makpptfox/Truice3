@@ -1,11 +1,11 @@
-##Truice3
+## Truice3
 This is an updated version of Truice v1.8.3.7 from Chaosua.
 It is a fork of http://github.com/chaosua/Truice
 
 
 ## Compilation
 
-**It is NOT yet finished !
+**It is NOT yet finished !**
 
 To compile use Delphi XE2 and next additional components:
 
